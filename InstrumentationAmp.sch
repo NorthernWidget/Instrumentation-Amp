@@ -5598,7 +5598,7 @@ type 0309, grid 2.5 mm</description>
 <part name="RG3" library="resistor" deviceset="R-US_" device="0207/10"/>
 <part name="RG4" library="resistor" deviceset="R-US_" device="0207/10"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="VNEG" device=""/>
-<part name="JP_VIN-" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" value=""/>
+<part name="JP_VS-" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_PASTE" device="_SILK" value=""/>
 <part name="CFN1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="CFN10" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
@@ -5634,7 +5634,7 @@ type 0309, grid 2.5 mm</description>
 <instance part="RG3" gate="G$1" x="-30.48" y="-66.04" rot="R90"/>
 <instance part="RG4" gate="G$1" x="-20.32" y="-66.04" rot="R90"/>
 <instance part="SUPPLY11" gate="G$2" x="-2.54" y="-88.9"/>
-<instance part="JP_VIN-" gate="G$1" x="-20.32" y="-83.82" rot="R90"/>
+<instance part="JP_VS-" gate="G$1" x="-20.32" y="-83.82" rot="R90"/>
 <instance part="CFN1" gate="G$1" x="-10.16" y="-99.06"/>
 <instance part="CFN10" gate="G$1" x="5.08" y="-99.06"/>
 <instance part="SUPPLY1" gate="GND" x="-10.16" y="-106.68"/>
@@ -5679,7 +5679,7 @@ type 0309, grid 2.5 mm</description>
 <wire x1="17.78" y1="-93.98" x2="17.78" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP_VIN-" gate="G$1" pin="1"/>
+<pinref part="JP_VS-" gate="G$1" pin="1"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 <wire x1="-20.32" y1="-91.44" x2="-20.32" y2="-88.9" width="0.1524" layer="91"/>
 </segment>
@@ -5811,7 +5811,7 @@ type 0309, grid 2.5 mm</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="-"/>
 <wire x1="-10.16" y1="-76.2" x2="-20.32" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="JP_VIN-" gate="G$1" pin="2"/>
+<pinref part="JP_VS-" gate="G$1" pin="2"/>
 <wire x1="-20.32" y1="-76.2" x2="-20.32" y2="-78.74" width="0.1524" layer="91"/>
 <label x="-15.24" y="-76.2" size="1.778" layer="95"/>
 </segment>
@@ -5850,7 +5850,7 @@ type 0309, grid 2.5 mm</description>
 <approved hash="113,1,-31.4748,-66.04,RG3,,,,,"/>
 <approved hash="113,1,-21.3148,-66.04,RG4,,,,,"/>
 <approved hash="113,1,-23.5373,35.6277,LOGGER,,,,,"/>
-<approved hash="113,1,-23.5373,53.4077,SENSOR,,,,,"/>
+<approved hash="113,1,-23.5373,62.2977,SENSOR,,,,,"/>
 </errors>
 </schematic>
 </drawing>
