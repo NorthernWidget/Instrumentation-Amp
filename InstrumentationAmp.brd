@@ -96,7 +96,7 @@
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -176,6 +176,10 @@
 <text x="10.541" y="39.497" size="0.6096" layer="112" font="vector" ratio="20" rot="SR180">Controller</text>
 <rectangle x1="1.27" y1="-1.397" x2="19.685" y2="4.699" layer="39"/>
 <rectangle x1="-0.889" y1="41.529" x2="11.811" y2="48.006" layer="39"/>
+<text x="20.32" y="36.83" size="1.27" layer="122" font="vector" rot="MR0">InstAmp
+Bobby Schulz
+v1.1
+11/06/2017</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -3056,4 +3060,10 @@ Covered vias can be set in Masks (Limit).
 </errors>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
