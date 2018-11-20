@@ -23,19 +23,19 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -47,19 +47,19 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -170,9 +170,9 @@
 <text x="32.639" y="9.525" size="0.8128" layer="52" font="vector" ratio="15" rot="MR0" align="center">Vin</text>
 <text x="32.639" y="5.969" size="0.8128" layer="52" font="vector" ratio="15" rot="MR0" align="center">GND</text>
 <text x="32.639" y="2.54" size="0.8128" layer="52" font="vector" ratio="15" rot="MR0" align="center">GND</text>
-<text x="27.617928125" y="9.525" size="0.8128" layer="52" font="vector" ratio="15" rot="MR0" align="center">(Red)</text>
-<text x="27.813" y="5.969" size="0.8128" layer="52" font="vector" ratio="15" rot="MR0" align="center">(Blue)</text>
-<text x="27.471625" y="2.413" size="0.8128" layer="52" font="vector" ratio="15" rot="MR0" align="center">(Blk)</text>
+<text x="27.685996875" y="9.525" size="0.8128" layer="52" font="vector" ratio="15" rot="MR0" align="center">(Red)</text>
+<text x="27.686" y="5.969" size="0.8128" layer="52" font="vector" ratio="15" rot="MR0" align="center">(Blue)</text>
+<text x="27.686" y="2.413" size="0.8128" layer="52" font="vector" ratio="15" rot="MR0" align="center">(Blk)</text>
 <text x="30.48" y="11.176" size="0.8128" layer="52" font="vector" ratio="15" rot="SMR0" align="center">To Sensor</text>
 <text x="3.429" y="11.176" size="0.8128" layer="52" font="vector" ratio="15" rot="MR0" align="center">To Logger</text>
 <text x="30.48" y="0.762" size="0.8128" layer="52" font="vector" ratio="15" rot="MR0" align="center">(CMP3)</text>
@@ -186,6 +186,10 @@ University of Minnesota</text>
 <text x="4.826" y="2.921" size="1.27" layer="52" font="vector" ratio="15" rot="MR0" align="center">±</text>
 <wire x1="5.715" y1="3.556" x2="5.715" y2="2.286" width="0.254" layer="52"/>
 <text x="6.858" y="5.461" size="0.8128" layer="52" font="vector" ratio="15" rot="MR270" align="center">3.3v ~ 5v</text>
+<text x="1.524" y="9.271" size="0.8128" layer="51" font="vector" ratio="15" align="center">SCL</text>
+<text x="1.524" y="6.731" size="0.8128" layer="51" font="vector" ratio="15" align="center">SDA</text>
+<text x="1.524" y="4.191" size="0.8128" layer="51" font="vector" ratio="15" align="center">Vin+</text>
+<text x="1.524" y="1.651" size="0.8128" layer="51" font="vector" ratio="15" align="center">Vin-</text>
 </plain>
 <libraries>
 <library name="bschulz_passives">
@@ -682,7 +686,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEY" value="" x="39.497" y="34.544" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Yageo" x="39.497" y="34.544" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="39.497" y="34.544" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="24.13" y="6.858" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="25.527" y="6.096" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="26.924" y="7.874" size="0.6096" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE_PART" value="" x="39.497" y="34.544" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -768,14 +772,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEY" value="ED10563-ND" x="3.429" y="5.461" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="On Shore" x="3.429" y="5.461" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="OSTVN04A150" x="3.429" y="5.461" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="2.032" y="4.191" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="7.239" y="0.635" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="5.461" y="4.191" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="J2" library="bschulz" package="1X03_3.5MM_SCREW" value="CONN_33.5_SCREW" x="30.48" y="5.969" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="ED2636-ND" x="30.48" y="5.969" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="OnShore" x="30.48" y="5.969" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="OSTTE030161" x="30.48" y="5.969" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="32.385" y="5.969" size="0.8128" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="26.289" y="0.508" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="28.575" y="5.969" size="0.8128" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
 <element name="TP1" library="bschulz" package="TESTPOINT_0603" value="TESTPOINTRCU" x="25.527" y="10.287" smashed="yes" rot="R180">
@@ -789,7 +793,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEY" value="A106145CT-ND" x="22.225" y="4.953" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="TE Connectivity" x="22.225" y="4.953" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RCU-0C" x="22.225" y="4.953" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="22.225" y="6.194615625" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="23.650384375" y="4.953" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="22.1537" y="3.67471875" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
 </element>
 <element name="TP3" library="bschulz" package="TESTPOINT_0603" value="TESTPOINTRCU" x="12.446" y="5.461" smashed="yes" rot="R90">
