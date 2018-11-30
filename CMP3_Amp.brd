@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -38,7 +38,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -620,16 +620,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </autorouter>
 <elements>
 <element name="C1" library="bschulz_passives" package="C0603" value="0.1uF" x="20.066" y="4.23" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="" x="28.956" y="32.17" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="" x="28.956" y="32.17" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="28.956" y="32.17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="490-6051-1-ND" x="28.956" y="32.17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Murata" x="28.956" y="32.17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GCM188R71E104KA57D" x="28.956" y="32.17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="20.027" y="2.286" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="21.463" y="4.23" size="0.6096" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
 <element name="C2" library="bschulz_passives" package="C0603" value="0.1uF" x="17.106" y="2.54" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="" x="1.866" y="16.51" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="1.866" y="16.51" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="1.866" y="16.51" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="490-6051-1-ND" x="1.866" y="16.51" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="Murata" x="1.866" y="16.51" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="GCM188R71E104KA57D" x="1.866" y="16.51" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="17.106" y="1.143" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="17.106" y="3.937" size="0.6096" layer="27" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
@@ -683,52 +683,52 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="8.636" y="0.889" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R1" library="bschulz_passives" package="R0603" value="1k" x="25.527" y="7.874" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="" x="39.497" y="34.544" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Yageo" x="39.497" y="34.544" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="39.497" y="34.544" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="P1.0KDBCT-ND" x="39.497" y="34.544" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Panasonic" x="39.497" y="34.544" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="ERA-3AEB102V" x="39.497" y="34.544" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="25.527" y="6.096" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="26.924" y="7.874" size="0.6096" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE_PART" value="" x="39.497" y="34.544" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE_PART" value="1k" x="39.497" y="34.544" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R2" library="bschulz_passives" package="R0603" value="62k" x="22.86" y="10.922" smashed="yes">
-<attribute name="DIGIKEY" value="" x="53.34" y="-3.048" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Yageo" x="53.34" y="-3.048" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="53.34" y="-3.048" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="P62KDBCT-ND" x="53.34" y="-3.048" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Panasonic" x="53.34" y="-3.048" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ERA-3AEB623V" x="53.34" y="-3.048" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.955" y="10.922" size="0.6096" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="22.86" y="9.525" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE_PART" value="" x="53.34" y="-3.048" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE_PART" value="62k" x="53.34" y="-3.048" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R3" library="bschulz_passives" package="R0603" value="1M" x="24.384" y="2.413" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="" x="43.434" y="17.653" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Yageo" x="43.434" y="17.653" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="43.434" y="17.653" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="P1.00MHCT-ND" x="43.434" y="17.653" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="Panasonic" x="43.434" y="17.653" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="ERJ-3EKF1004V" x="43.434" y="17.653" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="22.225" y="0.508" size="0.6096" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="25.781" y="2.413" size="0.6096" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE_PART" value="" x="43.434" y="17.653" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE_PART" value="1M" x="43.434" y="17.653" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R4" library="bschulz_passives" package="R0603" value="1M" x="22.225" y="2.413" smashed="yes" rot="R270">
-<attribute name="DIGIKEY" value="" x="3.175" y="-16.637" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Yageo" x="3.175" y="-16.637" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="3.175" y="-16.637" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="P1.00MHCT-ND" x="3.175" y="-16.637" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Panasonic" x="3.175" y="-16.637" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="ERJ-3EKF1004V" x="3.175" y="-16.637" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="24.384" y="0.508" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="20.828" y="2.413" size="0.6096" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE_PART" value="" x="3.175" y="-16.637" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE_PART" value="1M" x="3.175" y="-16.637" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R5" library="bschulz_passives" package="R0603" value="590k" x="14.351" y="5.969" smashed="yes" rot="R270">
-<attribute name="DIGIKEY" value="" x="-4.699" y="-16.891" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="311-590KHRCT-ND" x="-4.699" y="-16.891" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Yageo" x="-4.699" y="-16.891" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="-4.699" y="-16.891" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07590KL" x="-4.699" y="-16.891" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="12.954" y="6.985" size="0.6096" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="12.954" y="5.969" size="0.6096" layer="27" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE_PART" value="" x="-4.699" y="-16.891" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE_PART" value="590k" x="-4.699" y="-16.891" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R6" library="bschulz_passives" package="R0603" value="1M" x="17.272" y="8.509" smashed="yes">
-<attribute name="DIGIKEY" value="" x="43.942" y="-10.541" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Yageo" x="43.942" y="-10.541" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="43.942" y="-10.541" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="P1.00MHCT-ND" x="43.942" y="-10.541" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Panasonic" x="43.942" y="-10.541" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ERJ-3EKF1004V" x="43.942" y="-10.541" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="17.272" y="9.906" size="0.6096" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="VALUE" x="17.272" y="7.112" size="0.6096" layer="27" font="vector" ratio="15" align="center"/>
-<attribute name="VALUE_PART" value="" x="43.942" y="-10.541" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE_PART" value="1M" x="43.942" y="-10.541" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U4" library="bschulz" package="DQM_R-PX2SON-N8" value="TXS0102DQM" x="8.382" y="6.35" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="296-28435-1-ND" x="31.242" y="31.75" size="1.778" layer="27" rot="R90" display="off"/>
